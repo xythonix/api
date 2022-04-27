@@ -1,0 +1,87 @@
+#main {
+    position: relative;
+    min-height: 100vh;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#innerRow {
+    position: relative;
+    margin-top: 100px !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    width: 100%;
+    padding: 20px 15px;
+}
+
+#leftCol {
+    position: relative;
+    overflow: hidden;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    display: flex;
+    height: 350px;
+    padding: 0 !important;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#leftCol img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100%;
+    transform: scale(.7);
+}
+
+#rightCol {
+    position: relative;
+    display: flex;
+    align-self: stretch;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+#rightCol h5 {
+    position: relative;
+    padding: 10px;
+    border-left: 2px solid royalblue;
+    width: 100%;
+    font-size: 1.1rem;
+    border-radius: 3px;
+    background: rgba(65, 105, 225, 0.1);
+}
+
+.category {
+    position: relative;
+    margin-bottom: 0;
+    color: #999;
+}
+
+.category span {
+    color: royalblue;
+    font-style: italic;
+}
+
+.description {
+    position: relative;
+    margin-top: 5px;
+    color:#34495e;
+}
+
+.bottomContent {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 10px;
+}

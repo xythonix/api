@@ -1,0 +1,89 @@
+#card {
+    position: relative;
+    border: 1px solid #ddd ;
+    padding: 0 !important;
+    transition: .3s ease-in-out;
+    border-radius: 3px;
+    height: 300px;
+}
+
+#card:hover {
+    box-shadow: 0 .5rem 1.5rem rgba(0,0,0,.12);
+    transform: translateY(-3px);
+}
+
+#card:hover .imag {
+    transform: scale(.8);
+}
+
+.title {
+    font-size: .9rem;
+    padding: 5px;
+    margin: 5px;
+    border-left: 2px solid royalblue;
+    color: #34495e;
+}
+
+.heading {
+    position: relative;
+    width: 100%;
+    text-align: left;
+    height: 30px;
+    margin-bottom: 5px;
+    overflow: hidden !important;
+}
+
+#imgDiv {
+    position: relative;
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    align-items: center;
+}
+
+.imag {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    transition: .3s ease-in-out;
+    height: 100%;
+    transform: scale(.7);
+}
+
+.bottomContent {
+    position: relative;
+    padding: 10px;
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.price {
+    position: relative;
+    font-size: 1rem;
+    color: #34495e;
+}
+
+.spann {
+    color: royalblue;
+}
+
+.btn {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    transition: .3s ease-in-out;
+    align-items: center;
+    padding: 7px 15px !important;
+}
+
+.btn:hover {
+    transform: translateY(-2px);
+}
