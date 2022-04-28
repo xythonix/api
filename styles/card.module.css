@@ -67,7 +67,7 @@
 
 .price {
     position: relative;
-    font-size: .7rem;
+    font-size: .7rem !important;
     color: #34495e;
 }
 
