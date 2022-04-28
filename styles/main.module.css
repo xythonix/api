@@ -62,7 +62,7 @@
 
 @media (max-width:576px) {
     .heading {
-        font-size:4rem;
+        font-size:3.3rem !important;
     }
     .bottomContent {
         display: flex;
