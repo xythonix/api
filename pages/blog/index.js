@@ -1,10 +1,10 @@
 import React from 'react'
+import useRouter from 'next/router'
 import styles from '../../styles/blog.module.css'
 import Card from './card'
 import '../../node_modules/bootstrap/dist/css/bootstrap.min.css'
 import Head from '../head'
 import Header from '../header'
-import { useRouter } from 'next/router'
 
 export const getStaticProps = async () => {
     const response = await fetch('https://fakestoreapi.com/products')
