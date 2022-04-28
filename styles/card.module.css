@@ -17,8 +17,9 @@
 }
 
 .title {
-    font-size: 1.1rem !important;
+    font-size: 0.9rem !important;
     padding: 5px;
+    margin-top:5px !important;
     margin: 10px !important;
     border-left: 2px solid royalblue;
     color: #34495e;
