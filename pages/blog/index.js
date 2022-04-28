@@ -40,7 +40,7 @@ export default function blog ({ data }) {
                           <div className={styles.bottomContent} >
                               <Typography variant='h5' className={styles.price} >
                                   <span className={styles.spann} >Price </span> 
-                                  { element.price }
+                                  { `$${element.price}` }
                               </Typography>
                               <Link href={`/blog/${element.id}`} >
                                 <Fab className={styles.btn} size='small' variant='extended' color='primary' >

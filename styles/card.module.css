@@ -17,9 +17,9 @@
 }
 
 .title {
-    font-size: .9rem;
+    font-size: .6rem;
     padding: 5px;
-    margin: 5px;
+    margin: 10px;
     border-left: 2px solid royalblue;
     color: #34495e;
 }
@@ -67,7 +67,7 @@
 
 .price {
     position: relative;
-    font-size: 1rem;
+    font-size: .7rem;
     color: #34495e;
 }
 
